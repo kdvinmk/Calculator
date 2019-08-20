@@ -2,13 +2,17 @@ h1{
     text-align: center;
 }
 
-.container{
+#result{
+    text-align: center;
+}
 
+.container{
     height: 250px;
     width: 500px;
     margin-left: 450px;
     border-style: outset;
-    
+    border: 5px solid black;
+    text-align: center;
 }
 
 .containernums{
@@ -19,18 +23,17 @@ h1{
     width: 500px;
     grid-gap: 5px;
     border: 5px solid black;
-    margin: auto;
-    margin-top: 30px;
+    margin-left: 450px;
+    margin-top: 0px;
     background:black;
+    text-align: center;
 }
 
 #outputcont{
-
     font-size: 60px;
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 180px;
-    margin-top: 85px;
+    text-align: center;
     
 }
 
